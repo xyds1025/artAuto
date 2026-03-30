@@ -29,8 +29,29 @@ AI创作，多平台图文自动同步助手
 如果您觉得此项目对您有帮助，欢迎赞助支持 -> <a href="https://ifdian.net/order/create?plan_id=fb217028272611f184d052540025c377&product_type=0&remark=&affiliate_code=">用爱发电</a>
 
 如果您也是独立开发者、AI落地研究者，欢迎加入社群交流。
-![qrcode_for_gh_21a31c111bf3_344](https://github.com/user-attachments/assets/29780c36-a1d1-483c-ae25-67771bcd4701)
-关注公众号，后台回复任意内容获取联系方式
+<table>
+    <td align="center">
+        <a href="https://sap-doc.nasdaddy.com/">
+            <img src="https://github.com/user-attachments/assets/29780c36-a1d1-483c-ae25-67771bcd4701" width="200px" alt="NasDaddy公众号"/>
+            <br />
+            <sub><b>微信公众号</b></sub>
+        </a>
+        <br />
+        关注公众号，后台回复任意内容获取联系方式
+    </td>
+    <td align="center">
+        <a href="https://sap-doc.nasdaddy.com/">
+          <img width="750" height="412" alt="image" src="https://github.com/user-attachments/assets/18d1932b-a918-4b3a-8b2d-1dca14fe0300" />
+
+            <br />
+            <sub><b>知识星球</b></sub>
+        </a>
+        <br />
+        <a href="https://wx.zsxq.com/group/51115581825154" title="Documentation">📖</a>
+        <br />
+        如果您觉得项目有用，可以考虑打赏支持一下
+    </td>
+</table>
 
 ## 贡献
 #### 欢迎各种形式的贡献，包括但不限于：
