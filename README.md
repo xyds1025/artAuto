@@ -39,24 +39,24 @@ AI创作，多平台图文自动同步助手
 - 分享实用经验和教程；
 
 #### 如果您想要贡献代码，请遵循以下步骤：
-1.Fork 本仓库。
-2.创建一个新的分支 (git checkout -b feature/YourFeature 或 bugfix/YourBugfix)。
-3.提交您的更改 (git commit -m 'Add some feature')。
-4.Push到您的分支 (git push origin feature/YourFeature)。
-5.创建一个 Pull Request。
+1. Fork 本仓库。
+2. 创建一个新的分支 (git checkout -b feature/YourFeature 或 bugfix/YourBugfix)。
+3. 提交您的更改 (git commit -m 'Add some feature')。
+4. Push到您的分支 (git push origin feature/YourFeature)。
+5. 创建一个 Pull Request。
 
 ## 致谢
-1、本项目的文章同步能力基于开源项目Wechatsync
+1、 本项目的文章同步能力基于开源项目Wechatsync
 https://github.com/wechatsync/Wechatsync
-2、本项目的markdown编辑功能基于开源项目editor.md
+2、 本项目的markdown编辑功能基于开源项目editor.md
 https://github.com/pandao/editor.md
 
 ## 许可证
 本项目暂时采用GPL3.0开源
 
 ## 免责申明
-1、不可在未经许可的网页使用本工具，进行二次创作；
-2、本项目的开源目的只用做代码学习，切勿用于任何违法违规的操作；
+1、 不可在未经许可的网页使用本工具，进行二次创作；
+2、 本项目的开源目的只用做代码学习，切勿用于任何违法违规的操作；
 3、此工具仅获取当前网页正常加载后的文本内容，用于AI分析，请勿在未授权网页使用；
 4、再次申明此项目仅用于技术研究和代码学习，切勿进行任何非正当操作。
 
