@@ -14,7 +14,7 @@ AI创作，多平台图文自动同步助手
 ## 使用步骤
 - 下载源码
 - 解压
-- 拖拽到谷歌浏览器的插件管理界面 <a href="chrome://extensions/">chrome://extensions/</a>
+- 拖拽到谷歌浏览器的插件管理界面 <a href="javascript:open('chrome://extensions/')">chrome://extensions/</a>
 
 ## 项目背景
 该项目最初是我个人用于自动化管理社交媒体图文发布的工具，整合了AI辅助创作、同步功能和markdown编辑功能，解决了想要在多个平台上发文的繁琐操作，节省工作时间。
@@ -23,7 +23,7 @@ AI创作，多平台图文自动同步助手
 
 ## 详细文档
 暂未来得及整理
-更详细的文档和说明，请查看：<a href="https://tronk.top">artAuto 开发文档</a>
+更详细的文档和说明，请查看：<a href="javascript:open('https://tronk.top')">artAuto 开发文档</a>
 
 ## 交流与支持
 如果您觉得此项目对您有帮助，欢迎赞助支持 -> <a href="https://ifdian.net/order/create?plan_id=fb217028272611f184d052540025c377&product_type=0&remark=&affiliate_code=">用爱发电</a>
