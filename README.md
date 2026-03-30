@@ -31,8 +31,8 @@ AI创作，多平台图文自动同步助手
 如果您也是独立开发者、AI落地研究者，欢迎加入社群交流。
 <table>
     <td align="center">
-        <a href="https://sap-doc.nasdaddy.com/">
-            <img src="https://github.com/user-attachments/assets/29780c36-a1d1-483c-ae25-67771bcd4701" width="200px" alt="NasDaddy公众号"/>
+        <a href="https://wx.zsxq.com/group/51115581825154">
+            <img src="https://github.com/user-attachments/assets/29780c36-a1d1-483c-ae25-67771bcd4701" width="200px" alt="红鱼AI"/>
             <br />
             <sub><b>微信公众号</b></sub>
         </a>
@@ -40,7 +40,7 @@ AI创作，多平台图文自动同步助手
         关注公众号，后台回复任意内容获取联系方式
     </td>
     <td align="center">
-        <a href="https://sap-doc.nasdaddy.com/">
+        <a href="https://wx.zsxq.com/group/51115581825154">
           <img width="750" height="412" alt="image" src="https://github.com/user-attachments/assets/18d1932b-a918-4b3a-8b2d-1dca14fe0300" />
 
             <br />
