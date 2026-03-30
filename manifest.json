@@ -1,0 +1,202 @@
+{
+  "manifest_version": 3,
+  "name": "AI助手",
+  "description": "浏览器AI助手",
+  "version": "2.0.8",
+  "icons": {
+    "16": "assets/icon.png",
+    "48": "assets/icon.png",
+    "128": "assets/icon.png"
+  },
+  "action": {
+    "default_title": "点击运行"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "unlimitedStorage",
+    "cookies",
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "scripting",
+    "tabs",
+    "alarms",
+    "contextMenus",
+    "downloads"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "reader.js",
+        "Readability.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "js": [
+        "assets/api.ts-loader-BeWX74ls.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    },
+    {
+      "js": [
+        "assets/weixin.ts-loader-DLMzEwpM.js"
+      ],
+      "matches": [
+        "https://mp.weixin.qq.com/s/*",
+        "https://mp.weixin.qq.com/s?*"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "js": [
+        "assets/weixin-editor.ts-loader-DM-jKL3h.js"
+      ],
+      "matches": [
+        "https://mp.weixin.qq.com/cgi-bin/appmsg*"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "js": [
+        "assets/toutiao.ts-loader-DpEsQ3dD.js"
+      ],
+      "matches": [
+        "https://mp.toutiao.com/*"
+      ],
+      "run_at": "document_end"
+    },
+    {
+      "js": [
+        "assets/extractor.ts-loader-DZ-y5F73.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["editor.html"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["root_frame.js"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["markdown-it.min.js"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["highlight.min.js"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["editormd.min.js"],
+      "matches": ["<all_urls>"]
+    },
+     {
+      "resources": ["editor.js"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["editormd.min.css"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["github.min.css"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "resources": ["github-markdown.min.css"],
+      "matches": ["<all_urls>"]
+    },
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "resources": [
+        "assets/*",
+        "src/editor/index.html",
+        "src/sync-dialog/index.html",
+        "inject-api.js",
+        "markdown-it.min.js"
+      ],
+      "use_dynamic_url": false
+    },
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "resources": [
+        "assets/jszip.min-DpCewD43.js",
+        "assets/logger-CvfM-6aa.js",
+        "assets/_commonjsHelpers-BosuxZz1.js",
+        "assets/api.ts-CHQebYkU.js",
+        "assets/content-processor-IWRcpt0Y.js",
+        "assets/fab-W2bspDnB.js",
+        "assets/extractor.ts-lr8lmYQf.js"
+      ],
+      "use_dynamic_url": false
+    },
+    {
+      "matches": [
+        "https://mp.weixin.qq.com/*",
+        "https://mp.weixin.qq.com/*"
+      ],
+      "resources": [
+        "assets/jszip.min-DpCewD43.js",
+        "assets/content-processor-IWRcpt0Y.js",
+        "assets/fab-W2bspDnB.js",
+        "assets/_commonjsHelpers-BosuxZz1.js",
+        "assets/logger-CvfM-6aa.js",
+        "assets/weixin.ts-CvF-mYm8.js"
+      ],
+      "use_dynamic_url": false
+    },
+    {
+      "matches": [
+        "https://mp.weixin.qq.com/*"
+      ],
+      "resources": [
+        "assets/logger-CvfM-6aa.js",
+        "assets/jszip.min-DpCewD43.js",
+        "assets/content-processor-IWRcpt0Y.js",
+        "assets/_commonjsHelpers-BosuxZz1.js",
+        "assets/weixin-editor.ts-CGXyB9rN.js"
+      ],
+      "use_dynamic_url": false
+    },
+    {
+      "matches": [
+        "https://mp.toutiao.com/*"
+      ],
+      "resources": [
+        "assets/logger-CvfM-6aa.js",
+        "assets/toutiao.ts-Brq6w7IU.js"
+      ],
+      "use_dynamic_url": false
+    }
+  ]
+}

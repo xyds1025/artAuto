@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Editor.md 富文本图文编辑器（双栏预览）</title>
+
+<!-- Editor.md CSS -->
+<link rel="stylesheet" href="/editormd.min.css">
+<!--<link rel="stylesheet" href="/github-markdown.min.css">-->
+<!--<link rel="stylesheet" href="/github.min.css">-->
+<style>
+    html{
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+  body{margin:0px; background:#f5f5f5;height: 100%; position: relative}
+  .tool_tit{
+      margin: 0;
+      padding: 10px;
+      font-size: 18px;
+      box-sizing: border-box;
+  }
+  #editor{
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 155px;
+      bottom: 5px;
+      margin-bottom: 0;
+  }
+  .msg_input{
+      position: absolute;
+      bottom: 0;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+  }
+  .msg_input .btn{
+
+
+  }
+  .msg_in{
+      padding: 5px;
+      border: 1px solid #333333;
+      border-radius: 5px;
+      width: 100%;
+      background-color: transparent;
+      box-sizing: border-box;
+  }
+  .btn_box{
+      position: absolute;
+      right: 0px;
+      top: 60px;
+      width: 150px;
+      bottom: 30px;
+      border-bottom: 1px solid #DDDDDD;
+      text-align: left;
+      padding: 5px;
+      box-sizing: border-box;
+  }
+  .btn_box .btn{
+      padding:5px 10px; background:#07c160; color:white; border:none; border-radius:6px; cursor:pointer; margin-top:15px;
+      width: 100%;
+  }
+    .btn_box .btn:hover{
+        background-color: #0a3622;
+
+    }
+  .send_msg_con{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      padding: 5px;
+      box-sizing: border-box;
+      text-align: center;
+  }
+  .send_msg_con .btn{
+      margin: 10px 0;
+  }
+  .one_account{
+      width: 100%;
+      height: 18px;
+      margin: 5px 0;
+  }
+  .one_account img{
+      height: 100%;
+  }
+</style>
+</head>
+
+<body>
+<h2 class="tool_tit">图文编辑器（左编辑 + 右实时预览）<label id="tips" style="margin-left: 10px; color: green;font-size: 14px"></label> </h2>
+
+<!-- 编辑器 -->
+<div id="editor"></div>
+<div class="btn_box">
+
+
+<button class="btn" id="edit_el" style="background-color: gray">加载内容中</button>
+<button class="btn" id="publish_btn">同 步</button>
+<button class="btn" id="fresh_account">刷新账号</button>
+<!--<button class="btn" id="test">测试</button>-->
+    <div class="art_info">
+        <img id="art_img" style="width: 100%;margin: 5px 0; border-radius: 3px">
+        <div class="art_accounts" id="accounts">
+
+        </div>
+    </div>
+    <div class="send_msg_con"><input class="msg_in" id="msg_in" placeholder="这里输入消息吧。。">
+<button class="btn" id="send_btn">发 送</button></div>
+</div>
+<div class="msg_input">
+<!-- 发布按钮 -->
+
+</div>
+
+
+
+<!-- jQuery + Editor.md -->
+<script src="/jquery.min.js"></script>
+<script src="/editormd.min.js"></script>
+<!--<script src="/markdown-it.min.js"></script>-->
+<!--<script src="/highlight.min.js"></script>-->
+
+<!--<script src="/service-worker-loader.js" type="module"></script>-->
+<script src="/editor.js" ></script>
+</body>
+</html>
