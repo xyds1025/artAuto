@@ -47,9 +47,9 @@ AI创作，多平台图文自动同步助手
 
 ## 致谢
 1、 本项目的文章同步能力基于开源项目Wechatsync
-https://github.com/wechatsync/Wechatsync
+- https://github.com/wechatsync/Wechatsync
 2、 本项目的markdown编辑功能基于开源项目editor.md
-https://github.com/pandao/editor.md
+- https://github.com/pandao/editor.md
 
 ## 许可证
 本项目暂时采用GPL3.0开源
