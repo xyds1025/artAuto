@@ -44,12 +44,8 @@ AI创作，多平台图文自动同步助手
           <img width="750" height="412" alt="image" src="https://github.com/user-attachments/assets/18d1932b-a918-4b3a-8b2d-1dca14fe0300" />
 
             <br />
-            <sub><b>知识星球</b></sub>
+            <sub><b>如果您觉得项目有用，可以考虑打赏支持一下</b></sub>
         </a>
-        <br />
-        <a href="https://wx.zsxq.com/group/51115581825154" title="Documentation">📖</a>
-        <br />
-        如果您觉得项目有用，可以考虑打赏支持一下
     </td>
 </table>
 
