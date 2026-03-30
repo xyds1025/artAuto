@@ -10,8 +10,7 @@ AI创作，多平台图文自动同步助手
 
 
 
-<video src='https://github.com/user-attachments/assets/d9efc318-ee8c-4232-907e-c193cf95cde6"></video>
-
+https://github.com/user-attachments/assets/d9efc318-ee8c-4232-907e-c193cf95cde6
 
 
 
