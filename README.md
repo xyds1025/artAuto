@@ -26,7 +26,7 @@ https://github.com/user-attachments/assets/d9efc318-ee8c-4232-907e-c193cf95cde6
 
 ## 详细文档
 暂未来得及整理
-更详细的文档和说明，请查看：<a href="https://tronk.top">artAuto 开发文档</a>
+更详细的文档和说明，请查看：<a href="https://lyt33.top">artAuto 开发文档</a>
 
 ## 交流与支持
 如果您觉得此项目对您有帮助，欢迎赞助支持 -> <a href="https://ifdian.net/order/create?plan_id=fb217028272611f184d052540025c377&product_type=0&remark=&affiliate_code=">用爱发电</a>
