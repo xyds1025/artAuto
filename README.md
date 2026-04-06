@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/d9efc318-ee8c-4232-907e-c193cf95cde6
 
 
 ## 使用步骤
-- 下载源码
+- 下载源码 <a src="https://github.com/xyds1025/artAuto/archive/refs/heads/main.zip">点我下载</a>
 - 解压
 - 拖拽到谷歌浏览器的插件管理界面 <a href="chrome://extensions/'">chrome://extensions/</a>
 
