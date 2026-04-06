@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/d9efc318-ee8c-4232-907e-c193cf95cde6
 ## 使用步骤
 - 下载源码 <a href="https://github.com/xyds1025/artAuto/archive/refs/heads/main.zip">点我下载</a>
 - 解压
-- 拖拽到谷歌浏览器的插件管理界面 <a href="chrome://extensions/'">chrome://extensions/</a>
+- 拖拽到谷歌浏览器的插件管理界面， 浏览器地址栏输入：<a href="chrome://extensions/'">chrome://extensions/</a>
 
 ## 项目背景
 该项目最初是我个人用于自动化管理社交媒体图文发布的工具，整合了AI辅助创作、同步功能和markdown编辑功能，解决了想要在多个平台上发文的繁琐操作，节省工作时间。
