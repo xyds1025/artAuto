@@ -80,5 +80,5 @@ https://github.com/user-attachments/assets/d9efc318-ee8c-4232-907e-c193cf95cde6
 3、此工具仅获取当前网页正常加载后的文本内容，用于AI分析，请勿在未授权网页使用；
 4、再次申明此项目仅用于技术研究和代码学习，切勿进行任何非正当操作。
 
-##STAR
+## STAR
 如果此项目对您有帮助，请给一个Star以表示支持！
