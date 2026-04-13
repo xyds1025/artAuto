@@ -66,9 +66,9 @@ https://github.com/user-attachments/assets/d9efc318-ee8c-4232-907e-c193cf95cde6
 5. 创建一个 Pull Request。
 
 ## 致谢
-1、 本项目的文章同步能力基于开源项目Wechatsync
+ 1、 本项目的文章同步能力基于开源项目Wechatsync
 - https://github.com/wechatsync/Wechatsync
-2、 本项目的markdown编辑功能基于开源项目editor.md
+ 2、 本项目的markdown编辑功能基于开源项目editor.md
 - https://github.com/pandao/editor.md
 
 ## 许可证
