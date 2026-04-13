@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/d9efc318-ee8c-4232-907e-c193cf95cde6
 
 
 ## 使用步骤
-- 下载源码 <a href="https://github.com/xyds1025/artAuto/archive/refs/heads/main.zip">点我下载</a>
+- 下载ZIP文件 <a href="https://lyt33.top/art_auto">点我去下载</a> 此处为作者亲测上传的文件，请以此为准。（特别感谢网友“*云”提醒，仓库有文件上传失败导致插件不可用，已更新）
 - 解压
 - 拖拽到谷歌浏览器的插件管理界面， 浏览器地址栏输入：<a href="chrome://extensions/'">chrome://extensions/</a>
 
