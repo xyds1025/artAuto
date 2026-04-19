@@ -14,12 +14,6 @@ AI辅助创作，Markdown在线编辑，多平台图文自动同步助手
 https://github.com/user-attachments/assets/d9efc318-ee8c-4232-907e-c193cf95cde6
 
 
-
-## 使用步骤
-- 下载ZIP文件 <a href="https://lyt33.top/art_auto">点我去下载</a> 此处为作者亲测上传的文件，请以此为准。（特别感谢网友“*云”提醒，仓库有文件上传失败导致插件不可用，已更新）
-- 解压
-- 拖拽到谷歌浏览器的插件管理界面， 浏览器地址栏输入：<a href="chrome://extensions/'">chrome://extensions/</a>
-
 ## 项目背景
 该项目最初是我个人用于自动化管理社交媒体图文发布的工具，整合了AI辅助创作、同步功能和markdown编辑功能，解决了想要在多个平台上发文的繁琐操作，节省工作时间。
 
@@ -51,6 +45,11 @@ https://github.com/user-attachments/assets/d9efc318-ee8c-4232-907e-c193cf95cde6
         </a>
     </td>
 </table>
+
+## 使用步骤
+- 下载ZIP文件 <a href="https://lyt33.top/art_auto">点我去下载</a> 此处为作者亲测上传的文件，请以此为准。（特别感谢网友“*云”提醒，仓库有文件上传失败导致插件不可用，已更新）
+- 解压
+- 拖拽到谷歌浏览器的插件管理界面， 浏览器地址栏输入：<a href="chrome://extensions/'">chrome://extensions/</a>
 
 ## 贡献
 #### 欢迎各种形式的贡献，包括但不限于：
